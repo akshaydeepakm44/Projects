@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+
+        .nav {
+            background-color: #820000;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .nav:hover{
+            background-color: #000000;
+        }
+        
+        .nav a{
+        color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 20px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 20px;
+            text-decoration: none;
+            
+        }
+
+        .Intro {
+            text-align: center;
+            align-items: center;
+            font-weight: 300;
+            padding: 20px;
+            background-color:#ff6b6b;
+            color: rgb(0, 0, 0);
+            font-style: bold;
+            display: flex;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .img {
+            max-width: 200px;
+            border: 5px solid #fff;
+            border-radius: 50%;
+        }
+
+        .about {
+            background-color: #820000;
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px 0;
+            text-align: center;
+            list-style: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .txt {
+            padding: 30px;
+            font-weight: 600;
+            font-size: larger;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .loader {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #000;
+            background-color: #fff;
+            position: relative;
+        }
+
+        .bar {
+            height: 100%;
+            background-color: #000;
+            text-align: center;
+            line-height: 20px;
+            color: #fff;
+        }
+
+        .education {
+            margin-bottom: 20px;
+            background-color:#ff6b6b;
+           color: #000000;
+            font-style: bold;
+           
+        }
+        .skill {
+    
+    margin: 0 20px;
+    font-size: medium;
+    font-style: bold;
+    background-color: #820000;
+}
+
+.skill img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.skill p {
+    margin-top: 10px;
+}
+.certifications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .certificate {
+            width: calc(23.33% - 20px); 
+            padding: 10px;
+            text-align: center;
+        }
+
+        .certificate img {
+            max-width: 100%;
+           }
+.contactbox {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+
+        .contactbox input,
+        .contactbox textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .contactbox button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .end {
+            background: #7a0000;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            
+        }
+
+        .end a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 0 20px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .end:hover{
+            background-color: #000000;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="skill">
+    <div  class="nav">
+        <ul class="navbar li">
+            <li><a style="text-decoration:none ;font-size: larger;"  href="#About">ABOUT</a></li>
+            <li><a style="text-decoration:none ;font-size: larger;" href="#Education">EDUCATION</a></li>
+            <li><a style="text-decoration:none ;font-size: larger;"  href="#Skills">SKILLS</a></li> 
+            <li><a style="text-decoration:none ;font-size: larger;"  href="#Certifications">CERTIFICATIONS</a></li>
+            <li><a style="text-decoration:none ;font-size: larger;"  href="#Contact">CONTACT</a></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="Intro">
+        <img class="img" src="C:\Users\my pc\Documents\fav.jpg" alt="">
+        <div class="txt">
+            <h1 class="Intro">SAI AKSHAY DEEPAK.M</h1>
+            <p1>Hello, I'm AKSHAY, and I'm on a passionate journey to make a meaningful impact through my work. I believe in the power of coding to create positive change, and I'm dedicated to pushing boundaries, fostering innovation, and making a difference.</p1>
+            <br><br>
+            <p2>My commitment to continuous learning and innovation keeps me at the forefront of my field. I'm excited to share my journey, insights, and experiences with you through this portfolio. Feel free to explore my work, connect with me on social media, and get in touch if you'd like to collaborate or discuss opportunities.</p2>
+        </div>
+    </div>
+
+    <div class="about" id="About">
+        <h1>ABOUT</h1>
+        <div class="txt">
+            <p1>As a seasoned public speaker, I've honed the art of conveying ideas with clarity and impact. Whether it's captivating an audience with persuasive speeches or delivering engaging presentations, I thrive on the stage, ensuring that my message leaves a lasting impression.</p1><br>
+            <br>
+            <p2>With a keen eye for aesthetics and a knack for visual storytelling, I've ventured into the world of graphic designing. I craft compelling visuals that breathe life into ideas, be it through eye-catching illustrations, elegant layouts, or striking branding elements.</p2>
+        </div>
+    </div>
+<div class="education" >
+    <div class="txt" id="Education">
+        <h1>EDUCATION</h1>
+        <h2>S.F.S School, Vizag</h2>
+        <div class="loader">
+            <div class="bar" style="width: 80%;">80%</div>
+        </div>
+        <p1>I completed my early education at SFS School in Vizag, which played a pivotal role in shaping the foundation of my academic journey. These formative years not only equipped me with essential knowledge but also instilled values that I carry with me to this day.</p1>
+    </div>
+    <div class="education">
+        <div class="txt" id="Education">
+        <h2>Gayatri College, Vizag</h2>
+        <div class="loader">
+            <div class="bar" style="width: 90%;">90%</div>
+        </div>
+        <p1>I successfully completed my intermediate education at [Intermediate College] in Vizag. These two years were a significant step in my academic journey, allowing me to delve deeper into various subjects and expand my knowledge.
+
+            During my time at [Intermediate College], I focused on building a strong academic foundation while also exploring my interests and passions. </p1>
+    </div>
+    <div class="education">
+        <div class="txt" id="Education">
+        <h2>Kakinada Institute of Engineering and Technology</h2>
+        <div class="loader">
+            <div class="bar" style="width: 75%;">75%</div>
+        </div>
+        <p1>The first year of B.Tech was a period of adaptation and growth. I learned how to manage my time efficiently,
+            cope with the rigorous coursework, and collaborate with fellow students on group projects and assignments.
+            It was a year filled with new experiences, both inside and outside the classroom.</p1>
+    </div>
+</div>
+<div style="background-color: #820000;;color: #000000;font-size: larger;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+   <div class="skill">
+    <div id="Skills" class="skill">
+        <h2>SKILLS</h2>
+        <div class="skills">
+            
+            <div class="skill">
+                <div class="txt">
+                <h1>Public speaking</h1>
+                <img src="https://img.freepik.com/premium-vector/speech-man-podium-illustration_111797-93.jpg" alt="Skill 1">
+                <p>A passionate public speaker, and a multifaceted professional in the field of education.<br> I have honed my public speaking skills through years of experience, captivating audiences with engaging narratives, persuasive communication, and the power of storytelling.<br> My ability to convey complex ideas in an accessible and relatable manner has allowed me to connect with diverse audiences and leave a lasting impact.</p>
+            </div>
+        </div>
+            
+            <div class="skill">
+                <div class="txt">
+                <h1>Coding</h1>
+                <img src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?size=338&ext=jpg&ga=GA1.2.933601817.1697414400&semt=ais" alt="Skill 2">
+                <p>I find joy in the logic and creativity that coding demands. <br>It's the art of transforming ideas into functional, tangible creations that makes the digital world tick. From web development to app <br>creation, I'm continuously exploring the vast landscape of programming languages and technologies.</p>
+            </div>
+            </div>
+            <div class="skill">
+                <div class="txt">
+                <h1>Toastmaster</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUcMmA8qGCihUiiwkFcXU2JC1qI0FOPUacZceMJgSuF23NC1ot9taiDulSLuTlZ52wHU&usqp=CAU" alt="Skill 1">
+                <p>One of the most prominent aspects of my Toastmaster journey is the development of my public speaking skills. Through a series of speeches and presentations, I've gained the confidence to address audiences of all sizes. I've learned the art of structuring a speech, delivering it with impact, and captivating my audience's attention.</p>
+            </div>
+        </div>
+        </div>
+
+        </div>
+    </div>
+   </div>
+   <div class="certifications" id="Certifications">
+    <h1>CERTIFICATIONS</h1>
+    <div class="certificate">
+        
+        <img src="C:\Users\my pc\Documents\Screenshot (55).png">
+    </div>
+
+    <div class="certificate">
+        <img src="C:\Users\my pc\Documents\Screenshot (56).png">
+    </div>
+
+    <div class="certificate">
+        <img src="C:\Users\my pc\Documents\WhatsApp Image 2023-10-16 at 23.44.16_2995e08f.jpg">
+    </div>
+</div>
+</div>
+<div style="background-color: #820000;;color: #fff;font-size: larger;font-style: bold;">
+    <div id="Contact">
+        <div class="contactbox">
+            <h2>CONTACT </h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <br>
+            <footer class="end">
+                <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+                <a href="https://github.com/akshaydeepakm44/FMML">GitHub</a>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
